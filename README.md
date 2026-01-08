@@ -9,19 +9,14 @@ Welcome to my personal blog! This repository hosts my thoughts and experiments o
 - **docs/**  
   Contains all blog posts in Markdown format.  
 
-- **code/**  
-Includes related code snippets, experiments, and scripts referenced in posts.
 - **assets/**  
 Stores images and diagrams used in blog posts.
 
+## 🧪 Code Resources
+
+- [2048 Fork for AI Testing](https://github.com/petria-tieto/2048)
+
 ---
-
-## 🚀 How to View
-You can browse posts directly in this repository or set up a static site generator (e.g., **Jekyll**, **Astro**, or **Next.js**) to publish them via **GitHub Pages**.
-
----
-
-## ✍️ Latest Post
 
 ## ✅ License
 Feel free to share and adapt the content under the terms of the LICENSE.
