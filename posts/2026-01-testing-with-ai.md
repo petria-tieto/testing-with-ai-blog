@@ -86,13 +86,13 @@ Rather than running all tests on every change, AI can:
 
 ## Our Experiment
 
-In the `/code/ai-test-experiment/` directory, we're exploring how to train a language model to:
+We're planning to explore how to train a language model to:
 - Understand test requirements
 - Generate test code
 - Identify gaps in test coverage
 - Suggest improvements to existing tests
 
-This experiment aims to demonstrate practical applications of AI in testing and share learnings with the community.
+This experiment will demonstrate practical applications of AI in testing and share learnings with the community. Code and detailed findings will be shared in upcoming posts.
 
 ## Challenges and Considerations
 
@@ -115,9 +115,10 @@ As we continue this journey, we'll share more findings and practical examples. T
 
 ## What's Next?
 
-- Explore the code experiments in `/code/ai-test-experiment/`
-- Read about implementation details and next steps
-- Follow our progress as we refine our AI testing approaches
+Stay tuned for upcoming posts where we'll share:
+- Code experiments and practical implementations
+- Implementation details and lessons learned
+- Progress updates as we refine our AI testing approaches
 
 ---
 
