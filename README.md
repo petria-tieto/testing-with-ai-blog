@@ -6,7 +6,7 @@ Welcome to my personal blog! This repository hosts my thoughts and experiments o
 ---
 
 ## 📂 Structure
-- **posts/**  
+- **docs/**  
   Contains all blog posts in Markdown format.  
 
 - **code/**  
