@@ -1,3 +1,7 @@
+---
+title: "Testing with AI"
+---
+
 Imagine if AI could test applications for us. Sounds great, right? But it’s not that simple.
 
 So far, I’ve explored how language models can generate test scripts based on source code and instructions. It works for simple control tests—but real-world workflows are a different story. The model needs to learn how to use an application.
