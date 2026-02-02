@@ -25,9 +25,9 @@ A decision tree is a characteristic for Random Forest (RF) model.
 
 Each decision tree starts from a tile from the board (node on the top) and split decisions (true/false) guide the path down to leaves which mark the end of a decision process. Split decisions are done based on the normalized value of the tile. 
 
-<img src="./images/2026-02-02-decision_tree_zoomed.png" alt="topmost node" width="500" />
+<img src="./images/2026-02-02-decision_tree_zoomed.png" alt="topmost node" width="670" />
 
-The normalized tile value of 0.031 gives a recovered tile value limit of 1.41 which means that definitive split value of tile is between 0 and 2. So the split question here is: is this tile empty (less than 0.031) or is it more than that (contains at least 2)
+The normalized tile value of r1c2 tile 0.031 gives a recovered tile value limit of 1.41 which means that definitive split value of tile is between 0 and 2. So the split question here is: is this tile empty (less than 0.031) or is it more than that (contains at least 2)
 
 The node splits are followed down to a leaf. This leaf's move value is the selected move.
 
