@@ -47,7 +47,7 @@ test/
 To run the autoplay game mode, first start the Flask service:
 - ```RF_ALLOWED_ORIGINS=http://127.0.0.1:5500 PORT=5050 python3 model_server.py``` 
 - RF_ALLOWED_ORIGINS is given to avoid CORS related issues
-- run the command in python venv, see setup instructions in 2048/README.md
+- run the command in python venv, see setup instructions in [README.md](https://github.com/palapiessa/testing-with-ai-blog/blob/main/README.md) 
 - the script assumes model file ```random_forest_2048.pkl``` in same directory
 
 Open the game's ```Index.html``` in your favorite browser. 
@@ -58,12 +58,12 @@ Launch the autoplay mode from browser's developer tools:
 
 <img src="./images/2026-02-03-autoplay-start.png" alt="js console" width="400" />
 
-How did the model perform? To be honest, the scores were not that good but it was expected since it was learning from my own logs. :smile:
+How did the model perform? To be honest, the scores were not that good but it was expected since it was learning from my own logs. :)
 But the most important thing is that the model ***can*** play the game! 
 Here is a video of one game session:
 
 <video controls width="420">
-    <source src="./images/2026-02-03-autoplay-recording.mov" type="video/quicktime" />
+    <source src="./images/2026-02-03-autoplay-recording.mp4" type="video/quicktime" />
     Your browser does not support the video tag.
 </video>
 
