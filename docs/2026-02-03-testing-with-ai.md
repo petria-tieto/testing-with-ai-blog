@@ -6,7 +6,7 @@ In last blog I trained the model with logs from my own game sessions. In this bl
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({ startOnLoad: true });</script>
 
-```mermaid
+<div class="mermaid">
 sequenceDiagram
     participant Browser as Browser UI
     participant Game as GameManager (JS)
@@ -25,5 +25,5 @@ sequenceDiagram
     Autoplay->>Game: move(directionIndex)
     Game->>Browser: Update board + score
     Autoplay->>Autoplay: Schedule next poll
-```
+</div>
 ````
