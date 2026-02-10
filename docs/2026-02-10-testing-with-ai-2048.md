@@ -101,6 +101,9 @@ Let's add an artificial bug to the 2048 game to demo a test failure.
 The bug shall introduce a game over situation after 10 moves.
 ```
 
+<img src="./images/2026-02-10-game-over-screenshot.png" alt="js console" width="400" />
+
+
 <img src="./images/2026-02-10-game-over.png" alt="js console" width="400" />
 
 This "Game Over" scenario summarizes the experiment: the code is now guarded against regressions that would otherwise infuriate players. :)
