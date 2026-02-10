@@ -7,7 +7,7 @@ Today I’m adding an end-to-end (E2E) testing harness that checks both move val
 - `autoplay.js`
 - `test_autoplay.py`
 
-Autoplay.js contains a test-hook harness which activates only when specially required for testing sessions and can be excluded from production builds. There are several existing objects or functions modified at runtime by assigning new behavior to them. Methods like HTMLActuator.prototype.actuate, window.requestAnimationFrame, and window.fetch are wrapped or replaced so that, in addition to their original duties, they also capture game state for the test harness. This is called "monkey-patching" and is a quick way to instrument code without changing the application’s source files directly.
+Autoplay.js contains a test-hook harness which activates only when specially required for  testing sessions and can be excluded from production builds. There are several existing  objects or functions modified at runtime by assigning new behavior to them. Methods like HTMLActuator.prototype.actuate, window.requestAnimationFrame, and window.fetch are wrapped or replaced so that, in addition to their original duties, they also capture game state for the test harness. This is called "monkey-patching" and is a quick way to instrument code without changing the application’s source files directly.
 
 The tests use Playwright's Python bindings and Pytest. Pytest acts as the test runner and handles the setup fixtures. In this configuration, the game runs on a local static server with autoplay enabled, while Playwright controls the browser interactions.
 
@@ -97,8 +97,10 @@ uv run pytest --headed --tracing=retain-on-failure --screenshot=only-on-failure 
 The suite finishes in about 30 seconds and passes — so I intentionally inject a bug to showcase a failure scenario. Luckily GitHub Copilot is smart enough to understand my good intentions and is not considering this a malicious hack and implements a bug given in a following prompt: 
 
 ```bash
-Let's add an artificial bug to the 2048 game to demo a test failure. The bug shall introduce a game over situation after 10 moves.
+Let's add an artificial bug to the 2048 game to demo a test failure. 
+The bug shall introduce a game over situation after 10 moves.
 ```
+
 <img src="./images/2026-02-10-game-over.png" alt="js console" width="400" />
 
 This "Game Over" scenario summarizes the experiment: the code is now guarded against regressions that would otherwise infuriate players. :)
