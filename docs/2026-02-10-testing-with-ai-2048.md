@@ -96,7 +96,7 @@ uv run pytest --headed --tracing=retain-on-failure --screenshot=only-on-failure 
 ```
 The suite finishes in about 30 seconds and passes — so I intentionally inject a bug to showcase a failure scenario. Luckily GitHub Copilot is smart enough to understand my good intentions and is not considering this a malicious hack and implements a bug given in a following prompt: 
 
-```bash
+```text
 Let's add an artificial bug to the 2048 game to demo a test failure. 
 The bug shall introduce a game over situation after 10 moves.
 ```
