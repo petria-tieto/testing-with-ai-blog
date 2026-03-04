@@ -21,6 +21,10 @@ Check out my posts:
 - [Using the Model to Play](./2048-game/2026-02-03-testing-with-ai-2048.md)
 - [Game Over?](./2048-game/2026-02-10-testing-with-ai-2048.md)
 
+## Disclaimer
+This blog and the sample code are for educational purposes.
+They are provided "as is" without warranties, and you should validate suitability, safety, and security before production use.
+
 ---
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
