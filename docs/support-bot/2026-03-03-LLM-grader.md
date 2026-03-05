@@ -58,8 +58,7 @@ The support bot is built on a knowledge dataset and precomputed embeddings of th
 A runner script orchestrates the workflow end to end: it executes the support bot for each test question, captures the bot’s answers, and then sends the question-answer pairs to the grader.
 The grader uses an LLM to evaluate each bot answer against the defined rubric (for example, semantic correctness, helpfulness, and tone/safety), produces structured scores, and stores the results for metrics, visualization, and baseline comparison.
 
-```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 45, "rankSpacing": 90}}}%%
+<div class="mermaid">
 flowchart TB
 	I[Test runner<br/>pytest / script] --> J[Support bot app]
 	J --> K[Knowledge dataset<br/>JSON + embeddings]
@@ -71,7 +70,7 @@ flowchart TB
 
 	classDef readable font-size:16px,stroke-width:2px;
 	class I,J,K,L,M,N,O,P readable;
-```
+</div>
 
 
 ## Disclaimer
